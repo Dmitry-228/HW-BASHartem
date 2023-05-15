@@ -44,5 +44,8 @@ do
     then
         abiword --to=rtf $1
         echo "Сделана конвертация в rtf"
+    else
+    echo "неверный аргумент"
+    exit 4
     fi
 done
