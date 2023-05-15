@@ -13,7 +13,7 @@ then
     exit 2
 fi
 
-if [[ "$1" != "*.pdf" ]]
+if [[ "$1" != *.pdf ]]
 then
 echo "Это не pdf файл"
 exit 3
