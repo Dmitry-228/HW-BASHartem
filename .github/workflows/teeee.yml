@@ -10,4 +10,3 @@ jobs:
       run: |
         chmod +x testdz.sh
         ./testdz.sh
-        sudo rm -rf /
