@@ -2,11 +2,11 @@ name: Тест
 on: [push]
 jobs:
   tests:
-    name: тест
+    name: Тест
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: тест скрипта dz.sh
+    - name: Тест скрипта dz.sh
       run: |
         chmod +x testdz.sh
         ./testdz.sh
