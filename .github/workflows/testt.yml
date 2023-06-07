@@ -1,0 +1,12 @@
+name: Тест
+on: [push]
+jobs:
+  tests:
+    name: Тест
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Тест скрипта dz.sh
+      run: |
+        chmod +x testdz.sh
+        ./testdz.sh
